@@ -1,8 +1,7 @@
 import { ProductList } from "../components";
 import data from "../data.json";
 
-console.log("data :>> ", data);
-const Home = () => {
+const HomePage = () => {
   return (
     <div>
       <ProductList data={data} />
@@ -10,4 +9,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
