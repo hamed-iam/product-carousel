@@ -12,13 +12,18 @@ type ProductListProps = {
 
 const Product = ({ productInfo }: ProductListProps): JSX.Element => {
   return (
-    <>
-      <img src={productInfo.image} alt={productInfo.product_name} width={80} />
+    <div className="text-center">
+      <img
+        src={productInfo.image}
+        alt={productInfo.product_name}
+        width={70}
+        className="m-auto"
+      />
       <p>{productInfo.product_name}</p>
-      <p>{productInfo.ram}</p>
-      <p>{productInfo.memory}</p>
-      <p>{productInfo.size}</p>
-    </>
+      <p>{`Ram: ${productInfo.ram}`}</p>
+      <p>{`Memory: ${productInfo.memory}`}</p>
+      <p>{`Size: ${productInfo.size}`}</p>
+    </div>
   );
 };
 

@@ -1,5 +1,6 @@
 import Slider from "react-slick";
 import Product from "../Product";
+import "./productList.css";
 
 type DataPropTypes = {
   id: number;
@@ -50,19 +51,19 @@ const ProductList = ({ data }: ProductListProps): JSX.Element => {
     ],
   };
   return (
-    <div className="bg-red">
+    <>
       <Slider {...settings}>
         {data
           ? data?.map((item) => {
               return (
-                <div key={item.id}>
+                <div key={item.id} className="product p-2">
                   <Product productInfo={item} />
                 </div>
               );
             })
           : "Loading"}
       </Slider>
-    </div>
+    </>
   );
 };
 export default ProductList;

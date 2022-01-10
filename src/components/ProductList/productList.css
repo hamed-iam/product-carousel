@@ -1,0 +1,8 @@
+.product {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  margin: 1rem;
+}

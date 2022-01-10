@@ -3,9 +3,9 @@ import data from "../data.json";
 
 const HomePage = () => {
   return (
-    <div>
+    <>
       <ProductList data={data} />
-    </div>
+    </>
   );
 };
 
