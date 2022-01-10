@@ -1,0 +1,55 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "prettier/@typescript-eslint",
+    "prettier"
+  ],
+  "globals": {
+    "DEV": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": "warn",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "react/require-default-props": "off",
+    "@typescript-eslint/no-unused-expressions": "warn",
+    "no-unused-expressions": "warn",
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-useless-constructor": "error",
+    "import/extensions": "off",
+    "react/react-in-jsx-scope": "off",
+    "camelcase": "off",
+    "react/jsx-key": "error",
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["to", "hrefLeft", "hrefRight"],
+        "aspects": ["invalidHref", "preferButton"]
+      }
+    ],
+    "no-console": "warn",
+    "prettier/prettier": "error",
+    "react-hooks/exhaustive-deps": "off",
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ],
+    "react/prop-types": "warn",
+    "react/jsx-props-no-spreading": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {},
+      "webpack": {},
+      "node": {}
+    }
+  },
+  "plugins": ["@typescript-eslint"]
+}

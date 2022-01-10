@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "product_name": "Apple",
+    "memory": "1tb",
+    "ram": "8gb",
+    "size": "16 inch",
+    "image": "https://m.media-amazon.com/images/I/81TAF+5hhfL._AC_SY450_.jpg"
+  },
+  {
+    "id": 2,
+    "product_name": "Asus",
+    "memory": "512gb",
+    "ram": "8gb",
+    "size": "16 inch",
+    "image": "https://m.media-amazon.com/images/I/81TAF+5hhfL._AC_SY450_.jpg"
+  },
+  {
+    "id": 3,
+    "product_name": "Dell",
+    "memory": "2tb",
+    "ram": "6gb",
+    "size": "16 inch",
+    "image": "https://m.media-amazon.com/images/I/81TAF+5hhfL._AC_SY450_.jpg"
+  },
+  {
+    "id": 4,
+    "product_name": "Samsung",
+    "memory": "256gb",
+    "ram": "16gb",
+    "size": "16 inch",
+    "image": "https://m.media-amazon.com/images/I/81TAF+5hhfL._AC_SY450_.jpg"
+  },
+  {
+    "id": 5,
+    "product_name": "Another Dell",
+    "memory": "1tb",
+    "ram": "8gb",
+    "size": "16 inch",
+    "image": "https://m.media-amazon.com/images/I/81TAF+5hhfL._AC_SY450_.jpg"
+  }
+]
